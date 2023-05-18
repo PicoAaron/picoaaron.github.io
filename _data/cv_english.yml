@@ -5,6 +5,10 @@
       value: Aaron Pico
     - name: Languages
       value: English, Spanish
+
+- title: Contact
+  type: map
+  contents:
     - name: Email
       value: picoaaron@gmail.com
     - name: Linkedin

@@ -5,6 +5,10 @@
       value: Aarón Picó Pascual
     - name: Idiomas
       value: Español, Inglés, Valenciano/Catalán
+
+- title: Contacto
+  type: map
+  contents:
     - name: Email
       value: picoaaron@gmail.com
     - name: Linkedin
@@ -22,7 +26,7 @@
       institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>, España
       year: 2022
       description:
-        - Para mejorar mis conocimientos en IA, realicé el Máster en Inteligencia Artificial de la UPV, donde aquirí conocimientos más profundos de las diferentes técnicas de IA y Deep Learning. 
+        - Para mejorar mis conocimientos en IA, realicé el Máster en Inteligencia Artificial de la UPV, donde adquirí conocimientos más profundos de las diferentes técnicas de IA y Deep Learning. 
 
     - title: Ingeniería Informática con especialidad en Computación
       institution: <a href="https://www.ua.es/en/index.html">Universidad de Alicante (UA)</a>, España

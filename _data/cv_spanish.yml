@@ -1,0 +1,97 @@
+- title: Información Personal
+  type: map
+  contents:
+    - name: Nombre
+      value: Aarón Picó Pascual
+    - name: Idiomas
+      value: Español, Inglés, Valenciano/Catalán
+    - name: Email
+      value: picoaaron@gmail.com
+    - name: Linkedin
+      value: <a href="https://www.linkedin.com/in/aaron-pico-pascual/">https://www.linkedin.com/in/aaron-pico-pascual/</a>
+
+- title: Formación
+  type: time_table
+  contents:
+    - title: Doctorado en Informática (IA)
+      institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>, España
+      year: Actual
+      description:
+        - Como parte de mi compromiso con la vanguardia de la IA, actualmente estoy realizando mi doctorado en el campo de la Inteligencia Artificial en VRAIN (UPV). Mi investigación une los campos de la inteligencia artificial y la psicología, centrándose  en la IA cognitiva y la regulación emocional.
+    - title: Máster en Inteligencia Artificial, Reconocimiento de Formas e Imagen Digital
+      institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>, España
+      year: 2022
+      description:
+        - Para mejorar mis conocimientos en IA, realicé el Máster en Inteligencia Artificial de la UPV, donde aquirí conocimientos más profundos de las diferentes técnicas de IA y Deep Learning. 
+
+    - title: Ingeniería Informática con especialidad en Computación
+      institution: <a href="https://www.ua.es/en/index.html">Universidad de Alicante (UA)</a>, España
+      year: 2021
+      description:
+        - Durante mi carrera, opté por la rama de Computación, lo que me permitió desarrollar proyectos de Deep Learning y adquirir conocimientos sólidos en esta área.
+
+- title: Experiencia
+  type: time_table
+  contents:
+    - title: Investigador de Inteligencia Artificial
+      institution:  <a href="https://vrain.upv.es/">Valencian Research Institute for Artificial Intelligence (VRAIN)</a>, <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>
+      year: 2022 - Actual
+      #description:
+      #  - Description 1.
+      #  - Description 2.
+      #  - title: Description 3.
+      #    contents:
+      #      - Sub-description 1.
+      #      - Sub-description 2.
+    - title: Profesor
+      institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>
+      year: 2022 - Actual
+      #description:
+      #  - Description 1.
+      #  - Description 2.
+
+    - title: Data Science Developer
+      institution: <a href="https://www.possibleinc.com/">Possible Inc.</a>
+      year: 2021 - 2022
+
+    - title: Computer Engineer
+      institution: <a href="https://odysseyrobotics.com/">Odyssey Robotics</a>
+      year: 2020
+      #description:
+
+# 
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">ER-GPT</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# 
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
+# 
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+# 
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# 

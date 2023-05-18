@@ -1,0 +1,60 @@
+- title: Personal Information
+  type: map
+  contents:
+    - name: Full name
+      value: Aaron Pico
+    - name: Languages
+      value: English, Spanish
+    - name: Email
+      value: picoaaron@gmail.com
+    - name: Linkedin
+      value: <a href="https://www.linkedin.com/in/aaron-pico-pascual/">https://www.linkedin.com/in/aaron-pico-pascual/</a>
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science (IA)
+      institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>, Spain
+      year: Present
+      description:
+        - As part of my commitment to the cutting edge of AI, I am currently pursuing my PhD in the field of Artificial Intelligence at VRAIN (UPV). My research brings together the fields of artificial intelligence and psychology, focusing on cognitive AI and emotional regulation.
+    - title: Master in Artificial Intelligence, Shape Recognition and Digital Image
+      institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>, Spain
+      year: 2022
+      description:
+        - To improve my knowledge in AI, I took the Master in Artificial Intelligence at the UPV, where I acquired deeper knowledge of the different AI and Deep Learning techniques.
+
+    - title: Computer Engineering with specialization in Computer Science
+      institution: <a href="https://www.ua.es/en/index.html">Universidad de Alicante (UA)</a>, Spain
+      year: 2021
+      description:
+        - During my career, I opted for the Computer Science branch, which allowed me to develop Deep Learning projects and acquire solid knowledge in this area.
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Artificial Intelligence Researcher
+      institution:  <a href="https://vrain.upv.es/">Valencian Research Institute for Artificial Intelligence (VRAIN)</a>, <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>
+      year: 2022 - Present
+      #description:
+      #  - Description 1.
+      #  - Description 2.
+      #  - title: Description 3.
+      #    contents:
+      #      - Sub-description 1.
+      #      - Sub-description 2.
+    - title: Professor
+      institution: <a href="http://www.upv.es/en">Universidad Politécnica de Valencia (UPV)</a>
+      year: 2022 - Present
+      #description:
+      #  - Description 1.
+      #  - Description 2.
+
+    - title: Data Science Developer
+      institution: <a href="https://www.possibleinc.com/">Possible Inc.</a>
+      year: 2021 - 2022
+
+    - title: Computer Engineer
+      institution: <a href="https://odysseyrobotics.com/">Odyssey Robotics</a>
+      year: 2020
+      #description:

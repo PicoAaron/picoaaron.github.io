@@ -52,7 +52,6 @@ nav_order: 2
 {% endif %}
 -->
 
-
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}

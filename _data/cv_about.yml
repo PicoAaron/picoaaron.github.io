@@ -5,6 +5,8 @@
       value: picoaaron@gmail.com
     - name: Linkedin
       value: <a href="https://www.linkedin.com/in/aaron-pico-pascual/">https://www.linkedin.com/in/aaron-pico-pascual/</a>
+    - name: Github
+      value: <a href="https://github.com/PicoAaron">https://github.com/PicoAaron</a>
       
 - title: Formación
   type: time_table

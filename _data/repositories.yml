@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - PicoAaron
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - PicoAaron/ER-GPT
+  - PicoAaron/simple-python-personality-tests
+  - PicoAaron/VAR
+  - PicoAaron/TFM-Federated-Learning-and-ESN
+  - PicoAaron/TFG_EmocionesE4

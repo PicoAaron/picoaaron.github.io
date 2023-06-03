@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with code | Aarón  Picó</title>
+    <title>Repositories | Aarón  Picó</title>
     <meta name="author" content="Aarón  Picó">
-    <meta name="description" content="an example of a blog post with some code">
+    <meta name="description" content="Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.">
     <meta name="keywords" content="aaron, aaron99p, aaron pico, aaron pico pascual, vrain, upv">
 
 
@@ -38,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/icon.png">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://aaron99p.github.io/blog/2015/code/">
+    <link rel="canonical" href="https://aaron99p.github.io/repositories/">
 
     <!-- Dark Mode -->
     
@@ -79,8 +79,8 @@
               <!-- Blog
               
                 
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/blog/">blog</a>
               </li>-->
 
               <!-- Other pages -->
@@ -92,8 +92,8 @@
                   <a class="dropdown-item" href="/cv_english/">CV english</a>
                 </div>
               </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/repositories/">Repositories</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/repositories/">Repositories<span class="sr-only">(current)</span></a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -120,155 +120,113 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- _layouts/post.html -->
+        <!-- page.html -->
+        <div class="post">
 
-<div class="post">
+          <header class="post-header">
+            <h1 class="post-title">Repositories</h1>
+            <p class="post-description">Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.</p>
+          </header>
 
-  <header class="post-header">
-    <h1 class="post-title">a post with code</h1>
-    <p class="post-meta">July 15, 2015</p>
-    <p class="post-tags">
-      <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-        ·  
-        <a href="/blog/tag/formatting">
-          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
-          <a href="/blog/tag/code">
-          <i class="fas fa-hashtag fa-sm"></i> code</a>  
-          
-        ·  
-        <a href="/blog/category/sample-posts">
-          <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          
+          <article>
+            <h2 id="github-users">GitHub users</h2>
 
-    </p>
-  </header>
-
-  <article class="post-content">
-    
-    <div id="markdown-content">
-      <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
-It supports more than 100 languages.
-This example is in C++.
-All you have to do is wrap your code in markdown code tags:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">c++
-</span><span class="n">code</span> <span class="n">code</span> <span class="n">code</span>
-<span class="p">```</span>
-</code></pre></div></div>
-
-<div class="language-c++ highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
-
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
-
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>By default, it does not display line numbers. If you want to display line numbers for every code block, you can set <code class="language-plaintext highlighter-rouge">kramdown.syntax_highlighter_opts.block.line_numbers</code> to true in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p>
-
-<p>If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:</p>
-
-<p>{% highlight c++ linenos %}  <br> code code code <br> {% endhighlight %}</p>
-
-<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
-Produces something like this:</p>
-
-<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr>
-<td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td>
-<td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
-<span class="p">{</span>
-    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
-
-    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
-    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
-    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
-
-    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
-
-    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
-    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
-        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
-    <span class="p">}</span>
-
-    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></td>
-</tr></tbody></table></code></pre></figure>
-
-
-    </div>
-  </article>
-
-
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/custom-blockquotes/">a post with custom blockquotes</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/audios/">a post with audios</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2023/videos/">a post with videos</a>
-  </li>
-
+    <div class="repo p-2 text-center">
+  <a href="https://github.com/PicoAaron" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="PicoAaron" src="https://github-readme-stats.vercel.app/api/?username=PicoAaron&amp;theme=default&amp;show_icons=true">
+    <img class="repo-img-dark w-100" alt="PicoAaron" src="https://github-readme-stats.vercel.app/api/?username=PicoAaron&amp;theme=dark&amp;show_icons=true">
+  </a>
 </div>
+
+  
+</div>
+
+<hr>
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  <div class="repo p-2 text-center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-200" alt="PicoAaron" src="https://github-profile-trophy.vercel.app/?username=PicoAaron&amp;theme=flat&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C">
+    <img class="repo-img-dark w-200" alt="PicoAaron" src="https://github-profile-trophy.vercel.app/?username=PicoAaron&amp;theme=gitdimmed&amp;locale=en&amp;margin-w=15&amp;margin-h=15&amp;no-bg=true&amp;rank=-C">
+  </a>
+</div>
+
+  </div>
+
+<hr>
+
+<h2 id="github-repositories">GitHub Repositories</h2>
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/PicoAaron/ER-GPT" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="PicoAaron/ER-GPT" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=ER-GPT&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="PicoAaron/ER-GPT" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=ER-GPT&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/PicoAaron/simple-python-personality-tests" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="PicoAaron/simple-python-personality-tests" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=simple-python-personality-tests&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="PicoAaron/simple-python-personality-tests" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=simple-python-personality-tests&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/PicoAaron/VAR" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="PicoAaron/VAR" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=VAR&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="PicoAaron/VAR" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=VAR&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/PicoAaron/TFM-Federated-Learning-and-ESN" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="PicoAaron/TFM-Federated-Learning-and-ESN" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=TFM-Federated-Learning-and-ESN&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="PicoAaron/TFM-Federated-Learning-and-ESN" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=TFM-Federated-Learning-and-ESN&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
+
+  
+    
+
+
+
+<div class="repo p-2 text-center">
+  <a href="https://github.com/PicoAaron/TFG_EmocionesE4" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="PicoAaron/TFG_EmocionesE4" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=TFG_EmocionesE4&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="PicoAaron/TFG_EmocionesE4" src="https://github-readme-stats.vercel.app/api/pin/?username=PicoAaron&amp;repo=TFG_EmocionesE4&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
+
+  
+</div>
+
+
+          </article>
+
+        </div>
 
       
     </div>

@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-## GitHub user
+
 <div class="cv">
   <div class="card mt-3 p-3">
     <h3 class="card-title font-weight-medium">Github info</h3>
@@ -25,6 +25,8 @@ nav_order: 3
 </div>
 
 <!--
+## GitHub user
+
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}

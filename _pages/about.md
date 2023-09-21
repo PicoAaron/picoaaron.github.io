@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-Soy un ingeniero informático especializado en Inteligencia Artificial (IA) con una sólida formación académica y una gran pasión por la investigación y la innovación. Actualmente, me encuentro realizando mi doctorado en VRAIN (UPV), donde me dedico a la exploración de nuevas fronteras en la IA.
+Soy un ingeniero informático especializado en Inteligencia Artificial (IA) con gran pasión por la investigación y la innovación. Actualmente, estoy realizando mi doctorado en VRAIN (UPV).
 
-Mi investigación se centra en la IA cognitiva y el desarrollo de sistemas de Affective Computing para regular las emociones de los usuarios. A través de este trabajo, busco explorar nuevas posibilidades en la intersección entre la psicología y la tecnología, creando sistemas que mejoren el bienestar mental y emocional de los usuarios.
+Mi investigación se centra en la IA cognitiva y el desarrollo de sistemas de Affective Computing para regular las emociones de los usuarios. A través de este trabajo, busco explorar nuevas posibilidades y sinergias entre la psicología y la tecnología, creando sistemas que mejoren el bienestar mental y emocional de los usuarios.
 
